@@ -1,0 +1,89 @@
+/* Reset and basic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('AbstractWebsiteHeader_v1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: black;
+}
+
+.container {
+  width: 90%;
+  max-width: none;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section#abstracts {
+  margin-bottom: 40px;
+}
+
+section#abstracts h2 {
+  margin-bottom: 20px;
+  color: #004466;
+  border-bottom: 2px solid #004466;
+  padding-bottom: 5px;
+}
+
+.abstract {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.abstract h3 {
+  color: #004466;
+  margin-bottom: 10px;
+}
+
+.abstract p {
+  margin-bottom: 10px;
+}
+
+.abstract .authors,
+.abstract .presenter,
+.abstract .affiliation {
+  font-style: italic;
+  color: #555;
+}
+
+footer {
+  background-image: url('AbstractWebsiteHeader_v1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  margin-top: 20px;
+}
